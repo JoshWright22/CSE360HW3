@@ -17,6 +17,10 @@ public class DatabaseHelper {
 
     private Connection connection = null;
     private Statement statement = null;
+    
+    public void reset() {
+        // stub: do nothing
+    }
 
     public void connectToDatabase() throws SQLException {
         try {
